@@ -1,3 +1,6 @@
+@import "compass";
+@import "base";
+
 body {
   line-height: 1;
   font-size: .625em;
@@ -920,13 +923,13 @@ table {
   margin-left: 10px;
 }
 
-.footer .links #dnsimple img {
-  margin-top: 13px;
-}
-
-.footer .links .sponsor img {
-  padding-top: 5px;
-  display: block;
+.footer .links {
+  .sprite-dnsimple {
+    margin-top: 13px;
+  }
+  .sprite-rubycentral, .sprite-thoughtbot {
+    margin-top: 5px;
+  }
 }
 
 .footer a:hover {
@@ -1607,4 +1610,3 @@ h5#downloads {
   font-weight: bold;
   padding-left: 24px;
 }
-

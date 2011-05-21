@@ -90,18 +90,15 @@
           <%= link_to "Code", "http://github.com/rubygems/gemcutter" %>
           <%= link_to "Discuss", "http://groups.google.com/group/gemcutter" %>
           <%= link_to "Stats", stats_url %>
-          <%= link_to "designed by #{image_tag('thoughtbot.png')}".html_safe, "http://thoughtbot.com",
-            :class => "sponsor",
-            :title => "Designed by Thoughtbot",
-            :id    => "thoughtbot" %>
-          <%= link_to "resolved with #{image_tag('dnsimple.png')}".html_safe, "http://dnsimple.com",
-            :title => "Resolved with DNSimple",
-            :class => "sponsor",
-            :id    => "dnsimple" %>
-          <%= link_to "supported by #{image_tag('rubycentral.png')}".html_safe, "http://rubycentral.org",
-            :title => "Supported by Ruby Central",
-            :class => "sponsor",
-            :id    => "rubycentral" %>
+          <a href="http://thoughtbot.com" class="sponsor" id="thoughtbot" title="Designed by Thoughtbot">designed by 
+            <div class="sprite-thoughtbot"></div>
+          </a>
+          <a href="http://dnsimple.com" class="sponsor" id="dnsimple" title="Resolved with DNSimple">resolved with
+            <div class="sprite-dnsimple"></div>
+          </a>
+          <a href="http://rubycentral.org" class="sponsor" id="rubycentral" title="Supported by Ruby Central">supported by
+            <div class="sprite-rubycentral"></div>
+          </a>
         </div>
       </div>
     </div>

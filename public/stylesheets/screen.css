@@ -1,3 +1,25 @@
+.sprite-sprite, .sprite-dnsimple, .sprite-rubycentral, .sprite-thoughtbot {
+  background: url('/images/sprite-5558f288a6.png') no-repeat;
+}
+
+.sprite-dnsimple {
+  background-position: 0 0;
+  height: 32px;
+  width: 100px;
+}
+
+.sprite-rubycentral {
+  background-position: 0 -32px;
+  height: 55px;
+  width: 65px;
+}
+
+.sprite-thoughtbot {
+  background-position: 0 -87px;
+  height: 60px;
+  width: 53px;
+}
+
 body {
   line-height: 1;
   font-size: .625em;
@@ -917,13 +939,11 @@ table {
   margin-left: 10px;
 }
 
-.footer .links #dnsimple img {
+.footer .links .sprite-dnsimple {
   margin-top: 13px;
 }
-
-.footer .links .sponsor img {
-  padding-top: 5px;
-  display: block;
+.footer .links .sprite-rubycentral, .footer .links .sprite-thoughtbot {
+  margin-top: 5px;
 }
 
 .footer a:hover {
