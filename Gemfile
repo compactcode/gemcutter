@@ -24,6 +24,7 @@ gem "xml-simple",        "1.0.12"
 group :development, :test, :staging, :production do
   gem "delayed_job",             "2.1.2"
   gem "validates_url_format_of", "0.1.0"
+  gem "compass",                 "0.11.1", :require => false
 end
 
 group :development, :test do 
